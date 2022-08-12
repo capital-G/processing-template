@@ -17,6 +17,8 @@ dependencies {
     implementation("org.processing:core:3.3.7")
 
 //    implementation("com.illposed.osc:javaosc-core:0.8")
+
+//    implementation(files("$rootDir/library/oscP5.jar"))
 }
 
 tasks.getByName<Test>("test") {
